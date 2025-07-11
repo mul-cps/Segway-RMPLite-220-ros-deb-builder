@@ -13,7 +13,7 @@ jobs:
     steps:
       - uses: jspricke/ros-deb-builder-action@main
         with:
-          DEB_DISTRO: noble
+          DEB_DISTRO: oracular
           ROS_DISTRO: jazzy
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           SQUASH_HISTORY: true
