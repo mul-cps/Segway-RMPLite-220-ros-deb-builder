@@ -1,0 +1,25 @@
+repositories:
+  RPlidar_ROS2:
+    type: git
+    url: https://github.com/Slamtec/sllidar_ros2.git
+    version: 34300099fadfc772965962dec837bf436706188f
+  cps_rmp220_support:
+    type: git
+    url: https://github.com/mul-cps/ros2_rmp_support.git
+    version: 955865960a7bd399ba054eac091e281202da987f
+  rmp220_middleware:
+    type: git
+    url: https://github.com/mul-cps/ros2_rmp_middleware.git
+    version: 91c2802d3196af114ba36cdaf50fb94a242acacb
+  rmp220_teleop:
+    type: git
+    url: https://github.com/mul-cps/ros2_rmp_teleop.git
+    version: eac118232c2eb9c1dc2e3ad3aea5221a8edbd8d6
+  segway_msgs:
+    type: git
+    url: https://github.com/mul-cps/segway_msgs.git
+    version: 49016813d216479a1b8cba9eeb87ca921d95f10d
+  segwayrmp:
+    type: git
+    url: https://github.com/mul-cps/segwayrmp.git
+    version: 9116b3414427758f738432d54fd66910f9dbad80
