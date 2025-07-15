@@ -1,0 +1,27 @@
+orbbec_camera_msgs:
+  ubuntu:
+  - ros-jazzy-orbbec-camera-msgs
+orbbec_description:
+  ubuntu:
+  - ros-jazzy-orbbec-description
+rmp220_middleware:
+  ubuntu:
+  - ros-jazzy-rmp220-middleware
+ros2_rmp_support:
+  ubuntu:
+  - ros-jazzy-ros2-rmp-support
+segway_msgs:
+  ubuntu:
+  - ros-jazzy-segway-msgs
+sllidar_ros2:
+  ubuntu:
+  - ros-jazzy-sllidar-ros2
+orbbec_camera:
+  ubuntu:
+  - ros-jazzy-orbbec-camera
+rmp220_teleop:
+  ubuntu:
+  - ros-jazzy-rmp220-teleop
+segwayrmp:
+  ubuntu:
+  - ros-jazzy-segwayrmp

@@ -1,0 +1,29 @@
+repositories:
+  OrbbecSDK_ROS2:
+    type: git
+    url: https://github.com/orbbec/OrbbecSDK_ROS2.git
+    version: 863fb0025ba587a39f4a2c709c8999f353f065f0
+  RPlidar_ROS2:
+    type: git
+    url: https://github.com/Slamtec/sllidar_ros2.git
+    version: 34300099fadfc772965962dec837bf436706188f
+  cps_rmp220_support:
+    type: git
+    url: https://github.com/mul-cps/ros2_rmp_support.git
+    version: 04fc6fbb317ddb4a33b11c4615db5c3f38bac3e2
+  rmp220_middleware:
+    type: git
+    url: https://github.com/mul-cps/ros2_rmp_middleware.git
+    version: 91c2802d3196af114ba36cdaf50fb94a242acacb
+  rmp220_teleop:
+    type: git
+    url: https://github.com/mul-cps/ros2_rmp_teleop.git
+    version: eac118232c2eb9c1dc2e3ad3aea5221a8edbd8d6
+  segway_msgs:
+    type: git
+    url: https://github.com/LuckierDodge/segway_msgs.git
+    version: d220721f5b8c175a8105fddea24ce56f357ca975
+  segwayrmp:
+    type: git
+    url: https://github.com/LuckierDodge/segwayrmp.git
+    version: 3c26c52c0b63db5b7c5927550ae9998a990c5900
