@@ -1,0 +1,242 @@
+Package: ros-jazzy-orbbec-camera-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 1.5.8-155-g863fb00-2025.07.15.17.35
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-jazzy-orbbec-camera
+Maintainer: Joe Dong <mocun@orbbec.com>
+Installed-Size: 27549
+Depends: ros-jazzy-orbbec-camera (= 1.5.8-155-g863fb00-2025.07.15.17.35)
+Filename: ./ros-jazzy-orbbec-camera-dbgsym_1.5.8-155-g863fb00-2025.07.15.17.35_amd64.ddeb
+Size: 23687380
+MD5sum: b23f5c92ad91d393fefeae4c7082a2c6
+SHA1: 9097936e25f595555aa88b148c581b44ef11787d
+SHA256: 00b2d2a69b9e7b3dab046919cd13b7f2df889f40cedfa7b59d8fb87de93eaa5f
+SHA512: ff7503f38ddfe7d3ef0b35d4e1c675cf3fb18b2cb30437e1d348223280366620cd4448e0a85cf48b585c771f3b9330b5dff19f1ae760340646a1fb3fca08f1ed
+Description: debug symbols for ros-jazzy-orbbec-camera
+Build-Ids: 08a081f3219805d966c93383b02b94f198a6d170 0aadd25c62628e144ae0353405f416ea4f281f3c 17e672e77a67bb6e8f318f54168b9f5b0810c98d 5acf0a8689ed7145ff76c419e3500a9ef6bde842 6fdbeca9ac055691664cab59459e411dae77d826 7b34726f8f28bfdb72f2aae39d9cd8274a13694f 96367a8af052dc2be7195e822e4581fd1b1fcb2c 9fc8bb3b5087e452a07d8eb58ca383259c98acde d5f83b570e80fdb9fb7d02f704babf1e8496e19d
+
+Package: ros-jazzy-orbbec-camera-msgs-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 1.5.8-155-g863fb00-2025.07.15.17.28
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-jazzy-orbbec-camera-msgs
+Maintainer: Joe Dong <mocun@orbbec.com>
+Installed-Size: 2966
+Depends: ros-jazzy-orbbec-camera-msgs (= 1.5.8-155-g863fb00-2025.07.15.17.28)
+Filename: ./ros-jazzy-orbbec-camera-msgs-dbgsym_1.5.8-155-g863fb00-2025.07.15.17.28_amd64.ddeb
+Size: 2388338
+MD5sum: b23386f674915229be7733091e27bb01
+SHA1: cfc01065d738a689fce448c309c3576bdcc93553
+SHA256: 95d11b1534f227ccb792937599a52203b3d630107e2621217f8ac8e4ed883ace
+SHA512: 564c35c4ed76f6d5263eb954798ffa39ea7c6afcdb8de2997e430cf810a1a58d2ab2678575be461185cab4ab7326d9b8a9dd08d8c0fdb8f43454f40d18fd340e
+Description: debug symbols for ros-jazzy-orbbec-camera-msgs
+Build-Ids: 1f65c0cf62be3364c7b42d7758b10e821df31d01 68460e05bed7544851fe7503e0e89c688c84922b 7c733b9c3dc67b0bbf3ca046555fe54a48ee6af6 8000331b1716abc49fb2a9737d441701f130cced 84065e9a3133206e97902a79cedda7f5a2974c82 8aefeae7fe11bea58bfc9e529fdf638b70c81d48 b7a265cf4475cbdee238ae4cdbb37d93547b5f77 b7f454ae59f0dedc2a99469e67f31ea4138d4f61 cc6c428a2afe7b32133329c1b08aafe33c4193ff fd2e81054ef2f8a31f42a020b71dfc102b36b896 fdc8df64bd2852d47d7615f773cc3491e040dba7
+
+Package: ros-jazzy-orbbec-camera-msgs
+Architecture: amd64
+Version: 1.5.8-155-g863fb00-2025.07.15.17.28
+Priority: optional
+Section: misc
+Maintainer: Joe Dong <mocun@orbbec.com>
+Installed-Size: 3821
+Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.3.1), libpython3.12t64 (>= 3.12.1), libstdc++6 (>= 11), ros-jazzy-fastcdr, ros-jazzy-rosidl-default-runtime, ros-jazzy-sensor-msgs
+Filename: ./ros-jazzy-orbbec-camera-msgs_1.5.8-155-g863fb00-2025.07.15.17.28_amd64.deb
+Size: 252534
+MD5sum: 15385071359f84bcc3cf5a87383febe1
+SHA1: 9c34643e2b9be79eacba563e9dd4569e3ea0a3c8
+SHA256: 2be305a4d239655823c6fe6099cc4b467704a236b7047691abbe205ef0f9ae09
+SHA512: 0f5edd738b6644868d3e2cd31b914cc9c030e1750021c14096ca5fb44775ca3d96356df700c14c94f0c94dc9526fdc3ba74b651a8a7292389d9e2106a258995d
+Description: A package containing orbbec camera messages definitions.
+
+Package: ros-jazzy-orbbec-camera
+Architecture: amd64
+Version: 1.5.8-155-g863fb00-2025.07.15.17.35
+Priority: optional
+Section: misc
+Maintainer: Joe Dong <mocun@orbbec.com>
+Installed-Size: 19295
+Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libegl1, libgcc-s1 (>= 4.2), libopencv-calib3d406t64 (>= 4.6.0+dfsg), libopencv-core406t64 (>= 4.6.0+dfsg), libopencv-imgcodecs406t64 (>= 4.6.0+dfsg), libopencv-imgproc406t64 (>= 4.6.0+dfsg), libopencv-stitching406t64 (>= 4.6.0+dfsg), libstdc++6 (>= 13.1), libdw-dev, libgflags-dev, libgl1-mesa-dev, libglu1-mesa-dev, libgoogle-glog-dev, nlohmann-json3-dev, ros-jazzy-ament-index-cpp, ros-jazzy-ament-lint-auto, ros-jazzy-ament-lint-common, ros-jazzy-backward-ros, ros-jazzy-builtin-interfaces, ros-jazzy-camera-info-manager, ros-jazzy-cv-bridge, ros-jazzy-diagnostic-msgs, ros-jazzy-diagnostic-updater, ros-jazzy-image-publisher, ros-jazzy-image-transport, ros-jazzy-orbbec-camera-msgs, ros-jazzy-rclcpp, ros-jazzy-rclcpp-components, ros-jazzy-sensor-msgs, ros-jazzy-statistics-msgs, ros-jazzy-std-msgs, ros-jazzy-std-srvs, ros-jazzy-tf2, ros-jazzy-tf2-eigen, ros-jazzy-tf2-msgs, ros-jazzy-tf2-ros, ros-jazzy-tf2-sensor-msgs
+Filename: ./ros-jazzy-orbbec-camera_1.5.8-155-g863fb00-2025.07.15.17.35_amd64.deb
+Size: 4647328
+MD5sum: 4bcd01e89e0ffa395bb6c2c2d9ba801d
+SHA1: 447862209f6416a5d9c73033b39404bc5628989e
+SHA256: 2e8196a4154ed3f9cc38a4a08a7f411e12947b3befee113992d984d8ee7638b0
+SHA512: 5d4a214adabc71eaf0d72d2b0f31dc7aa14364ff5d8fcdde30517ba4188ec1a4734236ff2646a50168660933536e351a1ac9a082b72bc90319c4e78a492632a1
+Description: Orbbec Camera package
+
+Package: ros-jazzy-orbbec-description
+Architecture: amd64
+Version: 1.5.8-155-g863fb00-2025.07.15.17.30
+Priority: optional
+Section: misc
+Maintainer: toosimple <jian.dong@pobox.com>
+Installed-Size: 39274
+Filename: ./ros-jazzy-orbbec-description_1.5.8-155-g863fb00-2025.07.15.17.30_amd64.deb
+Size: 2999156
+MD5sum: 209ed8d1031eb6ec3c7cce73a79580ce
+SHA1: cf82679342677c4ce1f7a64560a44f35478cee3c
+SHA256: e960b80c86f2139c3cb339562b13b8530e95a41f317616d169e64e6fb631e862
+SHA512: 187d056470c1417fe4e45fa3dae60d16c3db380532438f5ee591eaca284e583e7ab8b71866af98092d33e1175abf6c52421efbf425a4875a18becb4ead901fdd
+Description: TODO: Package description
+
+Package: ros-jazzy-rmp220-middleware
+Architecture: amd64
+Version: 0-2025.07.15.17.31
+Priority: optional
+Section: misc
+Maintainer: bjorn <bjoern.ellensohn@gmail.com>
+Installed-Size: 48
+Filename: ./ros-jazzy-rmp220-middleware_0-2025.07.15.17.31_amd64.deb
+Size: 7954
+MD5sum: 25d6115ecb44a43e5e0a2c95c0016d5b
+SHA1: f7f3a00d37e0242c075c810cb912f85cb0a0e87c
+SHA256: c9b892db8baec6a8c5f19d9f3b6a7a01be9cfe1c98f952043fc633c517b6586d
+SHA512: 71df5bdbca5814ab94063e864ecc69d5d79db67a4234821aacac2274979e991912f5c38be7085c7dca130d890bc72735dc93c5dcd9bfcb8a88dc5b99477179f2
+Description: TODO: Package description
+
+Package: ros-jazzy-rmp220-teleop
+Architecture: amd64
+Version: 0-2025.07.15.17.39
+Priority: optional
+Section: misc
+Maintainer: bjoern <bjoern.ellensohn@gmail.com>
+Installed-Size: 49
+Depends: ros-jazzy-joy, ros-jazzy-rclpy, ros-jazzy-rmp220-middleware, ros-jazzy-ros2launch, ros-jazzy-segway-msgs, ros-jazzy-teleop-twist-joy, ros-jazzy-twist-mux
+Filename: ./ros-jazzy-rmp220-teleop_0-2025.07.15.17.39_amd64.deb
+Size: 7324
+MD5sum: dbb5849808ee09847e195cd33f02d3f7
+SHA1: fbc9d64912abf475d0766773df30539053a04798
+SHA256: 386983d805a63dc57ff29352acbe21c21d242be54fac955f67cc97f9629a8bb8
+SHA512: c03d5fbaad132c2e539cbfcb2a3609d310aeb2f1b36b8d9f978fb09e2d2eec9a6b60590b286fb142395a252316d1afec82985377aa22cf0c1f0c2740e4f1821f
+Description: TODO: Package description
+
+Package: ros-jazzy-ros2-rmp-support
+Architecture: amd64
+Version: 0-2025.07.15.17.31
+Priority: optional
+Section: misc
+Maintainer: MY NAME <bjoern.ellensohn@stud.unileoben.ac.at>
+Installed-Size: 7607
+Depends: ros-jazzy-compressed-image-transport, ros-jazzy-joy, ros-jazzy-laser-filters, ros-jazzy-nav2-bringup, ros-jazzy-navigation2, ros-jazzy-rviz2, ros-jazzy-slam-toolbox, ros-jazzy-teleop-twist-joy, ros-jazzy-twist-mux
+Filename: ./ros-jazzy-ros2-rmp-support_0-2025.07.15.17.31_amd64.deb
+Size: 1848070
+MD5sum: fa67df56399565206c327b59063baac4
+SHA1: ab77b0f2598211c4b326637fa7d405052e57d20f
+SHA256: 7d6fb970336b0da9547a9ebdcea2776adbdcf04cbc227a2fb5e16ebcbded0072
+SHA512: 359391c7ac7527993011f36498b2d790db9b872ca3a9ff10df94b070dc2d12e0405b1f480f92a953fc5f8740846df26f76d6f7a6a82bbea6d7fcc8dcc22f9c5a
+Description: Segway RMP220 lite package for control, simulation and visualization
+
+Package: ros-jazzy-segway-msgs-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 0-2025.07.15.17.32
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-jazzy-segway-msgs
+Maintainer: ninebot <chunxin.chu@ninebot.com>
+Installed-Size: 4248
+Depends: ros-jazzy-segway-msgs (= 0-2025.07.15.17.32)
+Filename: ./ros-jazzy-segway-msgs-dbgsym_0-2025.07.15.17.32_amd64.ddeb
+Size: 3183230
+MD5sum: c131db8e4b0e6f39c301fd266449ad49
+SHA1: 4ca3f208288c1ed0517df90f3b00e16bb11933b5
+SHA256: cddae3e57acf12d51cd5d4f9646903b96c8916d68bbfec159736c875282d0ca9
+SHA512: ce988e4315d22c0076e924b0356bff6f49aa6d8cfd52ef715049dcf9ecf408d29fb120f14559df06a394c41aa8ed597841cbd8e1c04ee7c53c06e56ce579f876
+Description: debug symbols for ros-jazzy-segway-msgs
+Build-Ids: 0265778923acf2ac19a37b70f56ba8644d6ebfe2 315f591663b23d585ac70c62b9e38b86104f106c 3cbbe1e5d0218115871fbdc7fc5da8c12c9be10f 3d10cb51104b1653577a0f54b329301c9568c3a7 3f41e0b94a344737d14437b0837ad5408943a314 4ea07531e73cc199f1e90c921595d81162f6605a 5441c327925c806ae3f9716aa143a3159e6eff4e 5cb7d1990ef8766213edd7094ff1c469d699d72b 76755c99967e8d3fa7c0fc15d8cb4a0424fe2da0 76cf5ff56583941aa7209cd8ee27614dcf662009 a99658e58901c792e650bb8c3b59f7fed57e5690
+
+Package: ros-jazzy-segway-msgs
+Architecture: amd64
+Version: 0-2025.07.15.17.32
+Priority: optional
+Section: misc
+Maintainer: ninebot <chunxin.chu@ninebot.com>
+Installed-Size: 6699
+Depends: libc6 (>= 2.4), libgcc-s1 (>= 3.3.1), libpython3.12t64 (>= 3.12.1), libstdc++6 (>= 5.2), ros-jazzy-fastcdr, ros-jazzy-action-msgs, ros-jazzy-geometry-msgs, ros-jazzy-rosidl-default-runtime, ros-jazzy-std-msgs
+Filename: ./ros-jazzy-segway-msgs_0-2025.07.15.17.32_amd64.deb
+Size: 376874
+MD5sum: 2605b47585191e860953100c7c4e8142
+SHA1: 2951d6363bee092814e4a59eecf32092d75df54f
+SHA256: 16212f7c5ddbd51024aa4995d3af9fb8d7490b3fccd227066b68e6e844f31a50
+SHA512: 124c0fbd7e453cbb5961171cfa1cd730bda044ffab08485ac5c581bbfe8af4fcb1250f3933a8c36ac45e4ac76c10c052c278420c660d33950bd14a5c93dc87d5
+Description: TODO: Package description
+
+Package: ros-jazzy-segwayrmp-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 0-2025.07.15.17.39
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-jazzy-segwayrmp
+Maintainer: ninebot <chunxin.chu@ninebot.com>
+Installed-Size: 10354
+Depends: ros-jazzy-segwayrmp (= 0-2025.07.15.17.39)
+Filename: ./ros-jazzy-segwayrmp-dbgsym_0-2025.07.15.17.39_amd64.ddeb
+Size: 8960792
+MD5sum: b9569b6ac4b6b43b3e9ef524e4326acc
+SHA1: fc34bb11729da6a33a8b3c35c52f474b61ffeeb3
+SHA256: 1e9512b2a3fc3cca5efdc831fbb393aa4df1981712bcf8104fba99510dca64fe
+SHA512: fd0b4333a6c41d79ad621a6cc34d5ddf6497190fbb81176d6d77e0b4fc848b2dd9baaa9acb0b45606a8eab2958aa577db59d1b206a306942ef6dd564ff8e7351
+Description: debug symbols for ros-jazzy-segwayrmp
+Build-Ids: 5a0f503405021445ff29cef3c3e0a102de35fe78 660e16615cb6ba64d2da63939735572eb0096282 812dcbc132e24b53cc7925c9d3175ed26b4f71f6 f8a86c1c8f1a1e55337430257a7d26f81b0829bc
+
+Package: ros-jazzy-segwayrmp
+Architecture: amd64
+Version: 0-2025.07.15.17.39
+Priority: optional
+Section: misc
+Maintainer: ninebot <chunxin.chu@ninebot.com>
+Installed-Size: 2314
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 13.1), ros-jazzy-geometry-msgs, ros-jazzy-nav-msgs, ros-jazzy-rclcpp, ros-jazzy-rclcpp-action, ros-jazzy-rclcpp-components, ros-jazzy-rclpy, ros-jazzy-segway-msgs, ros-jazzy-sensor-msgs, ros-jazzy-std-msgs, ros-jazzy-tf2, ros-jazzy-tf2-ros
+Filename: ./ros-jazzy-segwayrmp_0-2025.07.15.17.39_amd64.deb
+Size: 439724
+MD5sum: e5407f778790fac3d1c95cb2b8906be7
+SHA1: 42fb0ba9e0e7b5bf2e82d052c6e76cf85bec3e7c
+SHA256: ac98be0a3ffd3175a308d67d316f222d8011c5b7caa2c2c2007f31b3eeca4a17
+SHA512: d32dcbfbfce043e39a04d111e2edbcee7f09308f9625b48c178877a00f55c545a8e37994d5596a15e1625ba02be48420b07ff03e15bd572bb0ff67d135ae1a21
+Description: TODO: Package description
+
+Package: ros-jazzy-sllidar-ros2-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 0-2025.07.15.17.34
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-jazzy-sllidar-ros2
+Maintainer: Slamtec ROS Maintainer <ros@slamtec.com>
+Installed-Size: 3566
+Depends: ros-jazzy-sllidar-ros2 (= 0-2025.07.15.17.34)
+Filename: ./ros-jazzy-sllidar-ros2-dbgsym_0-2025.07.15.17.34_amd64.ddeb
+Size: 3141382
+MD5sum: d505bbb0853c6b85fa8a773950d59dd5
+SHA1: 03f274eb887136fafb7fa1ae7fc11626b451b174
+SHA256: 7b86bc8adea18866088d144bf3f208c68c42fbf33f8948831a97986db92b7d2d
+SHA512: 31ab85a2aa4861202bab9e8d9dacc491c45c041edbd14d63da1302690107033cef0c9ebdc58e3eb2bdefb106cfa8f158d0a38f3db09eedbe4dd633652ebd6289
+Description: debug symbols for ros-jazzy-sllidar-ros2
+Build-Ids: b8a9028521c7016ee198083da61ac67bcb2c59dc ba02f5e0688e27adee1a646375aca8ed50232132
+
+Package: ros-jazzy-sllidar-ros2
+Architecture: amd64
+Version: 0-2025.07.15.17.34
+Priority: optional
+Section: misc
+Maintainer: Slamtec ROS Maintainer <ros@slamtec.com>
+Installed-Size: 855
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 13.1), ros-jazzy-rclcpp, ros-jazzy-sensor-msgs, ros-jazzy-std-srvs
+Filename: ./ros-jazzy-sllidar-ros2_0-2025.07.15.17.34_amd64.deb
+Size: 194714
+MD5sum: 84855d502d2b9552fb305502bfa83ebb
+SHA1: 4bff75eea499996b5a1baa010b4e7bd24f004d14
+SHA256: ede30e2b8959d5503abca811229ce95d82f573bc99298d6c15de0126b56ac55b
+SHA512: 0f9aa1081b1789ab216fff3dd8b2487da0e9f307c05a82a6cbed3b96ef866c6d1936fe3b4e144a4ef01e517242861b05f00c66f6bf52d65dd9e90f404d56f684
+Description: The rplidar ros2 package, support rplidar A2/A1 and A3/S1
+
